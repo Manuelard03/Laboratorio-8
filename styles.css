@@ -186,3 +186,45 @@ header nav a:hover, header nav a.activo {
     width: 450px;
     border-radius: 5%;
 }
+
+.vision {
+    background-color: var(--secundario);
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+}
+
+.vision .contenedor{
+    width: 50%;
+}
+
+.vision h2 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 40px;
+    color: var(--primario);
+    margin-bottom: 20px;
+}
+
+.vision hr {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.vision p {
+    font-weight: normal;
+    font-size: 17px;
+    max-width: 60%;
+    margin-bottom: 30px;
+    color: var(--primario);
+}
+
+.vision .img {
+    width: 50%;
+    padding-left: 250px;
+}
+
+.vision img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
