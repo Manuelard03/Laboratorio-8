@@ -228,3 +228,62 @@ header nav a:hover, header nav a.activo {
     width: 300px;
     height: 300px;
 }
+
+.contactanos {
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+}
+
+.contactanos .contenedor {
+    width: 50%;
+    padding-left: 150px;
+}
+
+.contactanos h2 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 40px;
+    color: var(--secundario);
+    margin-bottom: 20px;
+}
+
+.contactanos form {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    margin-left: 170px;
+}
+
+.campo {
+    background-color: #0B2332;
+    padding: 17px 35px;
+    outline: none;
+    color:#90A9B7;
+    border: 0;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.campo::placeholder {
+    color: #90A9B7;
+}
+
+.boton {
+    padding: 17px 35px;
+    border: none;
+    border-radius: 30px;
+    color: #0B2332;
+    text-transform: uppercase;
+}
+
+.contactanos .img {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.contactanos img {
+    border-radius: 5%;
+    width: 300px;
+    height: 330px;
+    margin-top: 50px;
+}
