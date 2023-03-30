@@ -1,0 +1,106 @@
+:root {
+    --fondo: #90A9B7;
+    --primario: #90A9B7;
+    --secundario: #0B2332;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--fondo);
+    font-family: 'Prompt', sans-serif;;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    padding: 0px 0;
+    padding-left: 50px;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+header nav a {
+    color: var(--secundario);
+    text-decoration: none;
+    margin: 20px;
+}
+
+header nav a:hover, header nav a.activo {
+    color: white;
+}
+
+.Home {
+    background: url(./img/2-IMAGEN-HOME.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+
+.Home .contenedor {
+    margin: 0 auto;
+    margin-top: 250px;
+    padding: 50px 0px;
+}
+
+.Home h4 {
+    font-size: large;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.Home h2 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 40px;
+    color: var(--primario);
+    margin-bottom: 20px;
+}
+
+.Home hr {
+    width: 660px;
+    margin-bottom: 20px;
+}
+
+.Home p {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 1.75em;
+    max-width: 60%;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.Home button {
+    display: inline-block;
+    padding: 16px 25px;
+    background-color: var(--secundario);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px -5px #0c2d41;
+}
+
+.Home button:hover {
+    background: #668292;
+    color: white;
+    border: none;
+}
