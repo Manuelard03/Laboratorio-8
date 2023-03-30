@@ -104,3 +104,44 @@ header nav a:hover, header nav a.activo {
     color: white;
     border: none;
 }
+
+.quienes-somos {
+    background-color: #0c2d41;
+    padding: 100px 0;
+    display: flex;
+}
+
+.quienes-somos .contenedor {
+    width: 50%;
+}
+
+.quienes-somos h2 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 40px;
+    color: var(--primario);
+    margin-bottom: 20px;
+}
+
+.quienes-somos hr {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.quienes-somos p {
+    font-weight: normal;
+    font-size: 17px;
+    max-width: 70%;
+    color: var(--primario);
+    line-height: 1.5em;
+}
+
+.quienes-somos .img {
+    width: 50%;
+    padding-left: 250px;
+}
+
+.quienes-somos img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
