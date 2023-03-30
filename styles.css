@@ -145,3 +145,44 @@ header nav a:hover, header nav a.activo {
     height: 300px;
     width: 300px;
 }
+
+.mision {
+    background-color: var(--fondo);
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+}
+
+.mision .contenedor {
+    width: 50%;
+    padding-left: 250px;
+}
+
+.mision h2 {
+    font-family:'Prompt', sans-serif;
+    font-size: 40px;
+    color: var(--secundario);
+}
+
+.mision hr {
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+.mision p {
+    font-weight: normal;
+    font-size: 17px;
+    max-width: 70%;
+    margin-bottom: 30px;
+    color: var(--secundario);
+}
+
+.mision .img {
+    width: 50%;
+}
+
+.mision img {
+    height: 300px;
+    width: 450px;
+    border-radius: 5%;
+}
